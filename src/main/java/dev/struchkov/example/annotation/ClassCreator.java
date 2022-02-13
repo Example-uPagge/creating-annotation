@@ -1,7 +1,7 @@
-package org.sadtech.example.annotation;
+package dev.struchkov.example.annotation;
 
-import org.sadtech.example.annotation.domain.ClassDto;
-import org.sadtech.example.annotation.domain.FieldDto;
+import dev.struchkov.example.annotation.domain.ClassDto;
+import dev.struchkov.example.annotation.domain.FieldDto;
 
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.tools.JavaFileObject;

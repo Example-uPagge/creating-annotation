@@ -1,4 +1,4 @@
-package org.sadtech.example.annotation.domain;
+package dev.struchkov.example.annotation.domain;
 
 /**
  * // TODO: 07.06.2021 Добавить описание.

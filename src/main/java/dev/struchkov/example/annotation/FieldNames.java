@@ -1,4 +1,4 @@
-package org.sadtech.example.annotation;
+package dev.struchkov.example.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

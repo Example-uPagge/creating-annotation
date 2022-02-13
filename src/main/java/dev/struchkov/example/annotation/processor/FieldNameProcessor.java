@@ -1,11 +1,11 @@
-package org.sadtech.example.annotation.processor;
+package dev.struchkov.example.annotation.processor;
 
 import com.google.auto.service.AutoService;
 import com.google.common.base.CaseFormat;
-import org.sadtech.example.annotation.ClassCreator;
-import org.sadtech.example.annotation.FieldNames;
-import org.sadtech.example.annotation.domain.ClassDto;
-import org.sadtech.example.annotation.domain.FieldDto;
+import dev.struchkov.example.annotation.ClassCreator;
+import dev.struchkov.example.annotation.FieldNames;
+import dev.struchkov.example.annotation.domain.ClassDto;
+import dev.struchkov.example.annotation.domain.FieldDto;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Processor;
@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@SupportedAnnotationTypes("org.sadtech.example.annotation.FieldNames")
+@SupportedAnnotationTypes("dev.struchkov.example.annotation.FieldNames")
 @SupportedSourceVersion(SourceVersion.RELEASE_11)
 @AutoService(Processor.class)
 public class FieldNameProcessor extends AbstractProcessor {

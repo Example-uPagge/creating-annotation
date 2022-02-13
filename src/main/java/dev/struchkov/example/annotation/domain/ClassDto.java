@@ -1,4 +1,4 @@
-package org.sadtech.example.annotation.domain;
+package dev.struchkov.example.annotation.domain;
 
 import java.util.Set;
 
